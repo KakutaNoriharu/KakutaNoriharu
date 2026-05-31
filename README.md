@@ -1,59 +1,86 @@
 # Hi 👋 I'm Noriharu Kakuta
 
-🎓 Information Science Student in Japan
-💻 Interested in Web Development and Application Security
+🎓 Graduate Student — Information Engineering (Mobile Network Research)
+🔬 Researching mobile network simulations in C++
+🌏 Based in Japan | Open to internship opportunities
 
 ---
 
 ## 🔧 Skills
 
 **Languages**
-
-* Python
-* JavaScript
-* C++
+- C++ (primary — used in research simulations)
+- Python
+- JavaScript / TypeScript
+- HTML / CSS
 
 **Web**
+- Next.js 14 (App Router)
+- React
+- Node.js
+- FastAPI (Python)
+- Tailwind CSS
+- NextAuth.js
 
-* React (learning)
-* Node.js (learning)
-* HTML / CSS
+**Database / AI**
+- PostgreSQL
+- pgvector (vector similarity search)
+- OpenAI Embeddings API (text-embedding-3-small)
+- SQLAlchemy
 
-**Tools**
-
-* Git / GitHub
-* Linux (Ubuntu / WSL)
-* VSCode
+**Infrastructure / Tools**
+- Docker / Docker Compose
+- Git / GitHub
+- Linux (Ubuntu / WSL)
+- VSCode
 
 **Interests**
-
-* Web Development
-* Application Security
-* Network Simulation
-
----
-
-## 📚 Currently Learning
-
-* React and modern web development
-* Web application security (XSS, CSRF, authentication)
-* Python for security tools
+- Mobile Network Simulation
+- Web Application Development
+- AI / Semantic Matching Systems
+- Industry-Academia Collaboration Technology
 
 ---
 
 ## 🚀 Projects
 
-Here are some projects I am working on.
+### [ResearchBridge](https://github.com/kakuta-noriharu/research-bridge) — Industry-Academia Matching Platform
+> A web application that solves the structural inefficiencies in university-industry research collaboration.
 
-* Web application development using React and Node.js
-* Network simulation research using C++
-* Security-related tools with Python
+**Background:** Japan's current industry-academia matching relies on keyword search, passive databases (J-OPERA, TLO), and personal networks — leading to high information asymmetry and access barriers especially for SMEs and startups.
 
-More projects will be added as I learn and build.
+**Solution:** A bidirectional platform where researchers and companies are matched using **AI-powered semantic similarity** (OpenAI Embeddings + pgvector cosine similarity), not just keywords.
+
+**Tech Stack:**
+`Next.js 14` `TypeScript` `FastAPI` `PostgreSQL` `pgvector` `OpenAI API` `Docker` `Tailwind CSS`
+
+**Key Features:**
+- AI semantic matching with similarity scores
+- Bidirectional interest system (match only when both parties express interest)
+- In-app messaging (unlocked after matching)
+- Role-based profiles for researchers and companies
+
+---
+
+### Mobile Network Simulation (Research)
+> Ongoing graduate research on mobile network behavior using C++ simulation.
+
+- Implementing and evaluating network protocols in C++
+- Simulation-based performance analysis of mobile networks
+- Exploring handover optimization and QoS in dynamic topologies
+
+---
+
+## 📚 Currently Learning
+
+- Full-stack web development (Next.js + FastAPI)
+- Vector databases and semantic search (pgvector)
+- CI/CD with GitHub Actions
+- Cloud deployment (Vercel + Railway)
 
 ---
 
 ## 📫 Contact
 
-* GitHub Issues
-* GitHub Discussions
+- GitHub: [@kakuta-noriharu](https://github.com/kakuta-noriharu)
+- GitHub Issues / Discussions welcome
